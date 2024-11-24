@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1732455158 source:c:\users\dell\documents\codeblocks\day6_lineeditor\main.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
