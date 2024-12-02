@@ -1,7 +1,12 @@
 # depslib dependency file v1.0
-1731950044 source:c:\users\dell\documents\codeblocks\day2_menu\main.c
+1732632309 source:c:\users\dell\documents\codeblocks\day2_menu\main.c
 	<stdio.h>
 	<stdlib.h>
 	<windows.h>
 	<conio.h>
+
+1732137611 c:\users\dell\documents\codeblocks\day2_menu\employee.h
+
+1732137611 source:c:\users\dell\documents\codeblocks\day2_menu\employee.c
+	"employee.h"
 
