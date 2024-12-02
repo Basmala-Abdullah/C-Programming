@@ -21,7 +21,10 @@ void my_strcat(char dest[], char source[]){
     }
     while(source[j]!='\0'){
         dest[i]=source[j];
+        i++;
+        j++;
     }
+    dest[i] = '\0';
 }
 
 int my_strcmp(char str1[], char str2[]){
@@ -32,15 +35,7 @@ int my_strcmp(char str1[], char str2[]){
             index++;
 
     }
-    int len1 = my_strLen(str1);
-    int len2 = my_strLen(str2);
-    if(index == len1 && len1 == len2 ){
-        return 0;
-    }
-    else{
-
-        return (str1[index]-str2[index]);
-    }
+    return str1[index] - str2[index];
 
 }
 
